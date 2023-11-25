@@ -3,29 +3,26 @@
 layout: home
 
 hero:
-  name: "Yuque-VitePress"
-  text: "文档站点解决方案"
-  tagline: 语雀 + Elog + VitePress + GitHub Actions + Vercel 持续集成
+  name: "HDU考研  新闻站"
+  text: "学习，了解并且能够咨询考研情报的好去处"
+  tagline: 欢迎您的到来
+  image:
+    src: /hdu_logo.png
+    alt: HDU考研
   actions:
     - theme: brand
-      text: 快速开始
-      link: /docs/入门指引/快速开始
-    - theme: brand
-      text: 短路由示例
-      link: /docs-shorturl/ssuhngw0yb3dgkkg
+      text: 知识库
+      link: /docs/测试.md
     - theme: alt
-      text: GitHub
-      link: https://github.com/elog-x/yuque-vitepress
+      text: 杂项
+      link: /dustbin/index.md
 
 features:
-  - icon: 📝
-    title: 语雀书写文档
-    details: 更好的在线写作体验，及时备份 markdown 文档到本地
-  - icon: 🚀
-    title: 持续集成
-    details: 结合语雀 Webhooks + Github Actions + Vercel，写完及时同步到文档站点
-  - icon: 📦
-    title: 开箱即用
-    details: 简单配置仓库即可部署属于你的文档站点
+  - title: 💡 咨询
+    details: 了解最新的考研情报，获取有用的信息和建议。
+  - title: 📚 学习
+    details: 提供丰富的考研知识资源，助您备战考试。
+  - title: 🤝 交流
+    details: 与其他考研考生分享经验，建立学习和支持网络。
 ---
 
